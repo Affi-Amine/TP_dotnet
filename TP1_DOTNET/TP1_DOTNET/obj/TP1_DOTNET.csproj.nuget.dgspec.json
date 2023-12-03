@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj": {}
+    "C:\\Users\\lenovo\\source\\repos\\TP_dotnet\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj": {
+    "C:\\Users\\lenovo\\source\\repos\\TP_dotnet\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\TP_dotnet\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj",
         "projectName": "TP1_DOTNET",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\TP_dotnet\\TP1_DOTNET\\TP1_DOTNET\\TP1_DOTNET.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\TP1_DOTNET\\TP1_DOTNET\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\source\\repos\\TP_dotnet\\TP1_DOTNET\\TP1_DOTNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
