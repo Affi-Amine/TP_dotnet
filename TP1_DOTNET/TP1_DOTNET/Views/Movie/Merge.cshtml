@@ -1,0 +1,7 @@
+﻿@model TP1_DOTNET.Models.MergeViewModel
+<h1>@Model.movie.Name</h1>
+
+@foreach (var customer in Model.customers)
+{
+    <p>@customer.Name</p>
+}

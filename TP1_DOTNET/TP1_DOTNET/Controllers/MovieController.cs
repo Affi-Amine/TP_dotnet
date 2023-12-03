@@ -29,5 +29,23 @@ new Movie{Name="movie 3"},
         {
             return Content("Released in "+ month + " in " + year);
         }
+
+        public IActionResult Merge()
+        {
+            Movie movie = new Movie()
+            {
+                Name = "Incpetion"
+            };
+            List<Customer> customers = new List<Customer>()
+        {
+            new Customer{Name="CR7"},
+            new Customer{Name="David"},
+            new Customer{Name="amine"},
+    };
+
+            var viewModel = new MergeViewModel { movie = movie, customers = customers };
+
+            return View(viewModel);
+        }
     }
 }
